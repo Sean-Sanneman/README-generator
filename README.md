@@ -18,7 +18,7 @@
 
   ## Usage
 
-  Run 'node index.js' from within the develop directory, and answer the question when prompted. A README.md file will be added to the directory.
+  Run 'node index.js' from within the develop directory, and answer the questions when prompted. A README.md file will be added to the directory.
 
   ## Credits
 
