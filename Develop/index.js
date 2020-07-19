@@ -50,6 +50,11 @@ const questions = [
     default: "MIT License",
     message: "What kind of license is this project released under?",
   },
+  {
+    type: "input",
+    name: "email",
+    message: "What is your e-mail address?",
+  },
 ];
 
 // function to write README file
@@ -62,13 +67,11 @@ function init() {
   inquirer
     .prompt(questions)
 
-    // getting response
+    // generate response
 
     .then((response) => {
       console.log("Sit tight, crunch, crunch, crunch...");
       writeToFile("README.md", generateMarkdown({ ...response }));
     });
 }
-
-// function call to initialize program
 init();

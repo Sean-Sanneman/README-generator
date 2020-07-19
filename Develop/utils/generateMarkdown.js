@@ -31,7 +31,12 @@ function generateMarkdown(data) {
   Use is permitted under the rights granted by the following license:
 
   ${data.rights}
-  
+
+  ## GitHub username:
+  ${data.github}
+
+  ## You can contact me at ${data.email} if you have any questions.
+
 `;
 }
 
