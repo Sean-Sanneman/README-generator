@@ -70,7 +70,9 @@ function init() {
     // generate response
 
     .then((response) => {
-      console.log("Sit tight, crunch, crunch, crunch...");
+      console.log(
+        "Sit tight, crunch, crunch, crunch... your formatted README.md file has been added to this directory. Have a great day!"
+      );
       writeToFile("README.md", generateMarkdown({ ...response }));
     });
 }

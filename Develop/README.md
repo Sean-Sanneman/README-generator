@@ -2,7 +2,7 @@
 
   ## Description
 
-  This is a README generator, meant to help you generate a detailed README filewithout having to format it yourself. Answer the questions when prompted, and the generator will format a README file for you.
+  This is a README generator. It formats a README.md file for you, so you don't have to.
 
   ## Table Of Contents
 
@@ -14,11 +14,11 @@
 
   ## Installation
 
-  Clone the repo from GitHub, and open it in VSCode or a similar editor.  
+  Clone repo, and open within a code editor like VS Code.
 
   ## Usage
 
-  Run 'node index.js' from inside the develop directory, and asnwer the questions when prompted. *** This generator runs in node.js, make sure you have node installed prior to use.
+  Run 'node index.js' from within the develop directory, and answer the question when prompted. A README.md file will be added to the directory.
 
   ## Credits
 
